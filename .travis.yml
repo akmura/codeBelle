@@ -3,8 +3,16 @@ sudo: required
 rvm:
 - 2.2.5
 addons:
-  postgresql: "9.3"
+  postgresql: '9.3'
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
-  - cp config/database.yml.travis config/database.yml
-  - bin/rake db:migrate RAILS_ENV=test
+- psql -c 'create database travis_ci_test;' -U postgres
+- cp config/database.yml.travis config/database.yml
+- bin/rake db:migrate RAILS_ENV=test
+deploy:
+  provider: heroku
+  api_key:
+    secure: bXwHENaj4YrSx8Ri/r456PmZrkNENvuiCowp29NxWfSPugs9cX8mBtk/jkD4FSyald0iXWgWRoy9EQaBUhogfEeiOfMdX5bOJEDMRDwQQK9yuh/qc+SAkZcPwTlnqBWw2AYj3SeSm/PyC/PyZcImv9pJfa6xDXQRF88h3/qB30b0ptITUTUXInGVzObOjtltmNCR8c0gL+FdwmUoCpQdvgPU7ttRcY3Aykga1d8IOCeV6DJDV9+iLD+drKRfW8DZJlOTQX+Dk8+ffC88h+iMMXA8abwCSp5FAiFQMMGpHBsYr1THOiVZEkG5IP5I1xDMfTJFizKQzZOvH4kx0HctJ4wLMtjWbgmcT8q9k3hAprVwnJm+QTKD0NF8sl1iW7KtLdCdHbOP1PMZ/NUhI1nAavlguU+iVA20yIVJpPyQ545Ncj6HvIcHY0ZJI8CIQsz2i9j8c9gW6ne+wMxR0diFZNRgacA5Cbq5ZFPex1WDyNwc9ZWOPHlv0GS+9QhFYOE0WNt4FiGTy7WJGyGyT6Q01AZcef1E6BTSFVuLasJbqxJnOPrEef3kaiNIff/Gu262Hyop4QEkQY0hlkjPzmtkRS6g9HT62Hn7Qv1cpHOKXk5PzP/LGtGAPZNLaBaWPRQeJ0wRe/FgfTYwV5ARA8IXdjKF/QNuNkoEY3rqhG7prb0=
+  app: tabi-cierge
+  on:
+    repo: tantan5/codeBelle
+    branch: addHerokuLink
