@@ -15,4 +15,4 @@ deploy:
   app: tabi-cierge
   on:
     repo: tantan5/codeBelle
-    branch: addHerokuLink
+
