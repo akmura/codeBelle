@@ -83,3 +83,8 @@ production:
   database: tabi_cierge_production
   username: tabi_cierge
   password: <%= ENV['TABI_CIERGE_DATABASE_PASSWORD'] %>
+
+test:
+  adapter: postgresql
+  database: travis_ci_test
+  username: postgres
