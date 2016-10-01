@@ -3,17 +3,17 @@
 ![Build Status](https://travis-ci.org/tantan5/codeBelle.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/tantan5/codeBelle/badge.svg?branch=master)](https://coveralls.io/github/tantan5/codeBelle?branch=master)
 ## エレベーターピッチ
-今までに経験したことのない旅行をしたい
+どこかに行きたいけど、行き先が決められないあなたに、
 
-旅好き 向けの、
+この旅シェルジュは、
 
-旅シェルジュ は
+好みの写真と今の気分を分析することで
 
-これまで思いもしなかった旅行を提案します。
+最適の場所を提案します。
 
-通常の旅行代理店とは違って
+これまでの提案サイトと違って、
 
-性格や嗜好をもとにした意外な旅行プランを組み立てます
-## 各種リンク
+先入観無く、ぴったりの行き先を案内します。
+# 各種リンク
 - [Heroku](https://tabi-cierge.herokuapp.com/)
 - [Travis](https://travis-ci.org/tantan5/codeBelle)
