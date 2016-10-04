@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'top#entry'
   #get '/entry' => 'top#entry'  
   get 'results' => 'top#results'
+  post 'results' => 'top#results'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
