@@ -12,12 +12,17 @@ using Newtonsoft.Json;
 using System.Threading;
 using Microsoft.Bot.Connector;
 using System.Collections.Generic;
+using TabiCierge.Helpers;
 
 namespace TabiCierge.Dialogs
 {
     [Serializable]
     public class TabiDaialog : IDialog
     {
+        public int? selectNo1;
+        public int? selectNo2;
+        public int? selectNo3;
+
         public async Task StartAsync(IDialogContext context)
         {
             context.Wait(MessageReceivedAsync);
@@ -61,6 +66,7 @@ namespace TabiCierge.Dialogs
             }
             else
             {
+                selectNo1 = selectNo;
                 await context.PostAsync("二番目にお気に入りの画像を選んで下さい。");
                 context.Wait(SecondSelectAsync);
             }
@@ -77,6 +83,7 @@ namespace TabiCierge.Dialogs
             }
             else
             {
+                selectNo2 = selectNo;
                 await context.PostAsync("三番目にお気に入りの画像を選んで下さい。");
                 context.Wait(AnserAsync);
             }
@@ -94,6 +101,7 @@ namespace TabiCierge.Dialogs
             }
             else
             {
+                selectNo3 = selectNo;
                 await context.PostAsync("回答ありがとうございます。貴方におすすめの観光地は");
                 Thread.Sleep(1000);
                 await context.PostAsync("・");
@@ -103,9 +111,9 @@ namespace TabiCierge.Dialogs
                 await context.PostAsync("・");
                 Thread.Sleep(1000);
                 await context.PostAsync("次の3つとなります。");
-                await context.PostAsync("1位　泉岳寺（赤穂浪士の墓）");
-                await context.PostAsync("2位　碓氷第三橋梁");
-                await context.PostAsync("3位　足尾銅山");
+                await context.PostAsync("1位　"+ImageSelectHelper.MatchByImage(selectNo1));
+                await context.PostAsync("2位　" + ImageSelectHelper.MatchByImage(selectNo2));
+                await context.PostAsync("3位　" + ImageSelectHelper.MatchByImage(selectNo3));
                 Thread.Sleep(2000);
                 await context.PostAsync("如何でしょうか。興味がある観光地がある場合は、教えて下さい。おすすめの宿泊先を楽天トラベルより紹介します。");
                 await context.PostAsync("以下未実装");

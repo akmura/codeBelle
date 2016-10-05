@@ -36,3 +36,42 @@ C:\Users\nacho\Documents\net\TabiCierge\TabiCierge\bin\ru\Microsoft.Bot.Builder.
 C:\Users\nacho\Documents\net\TabiCierge\TabiCierge\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 C:\Users\nacho\Documents\net\TabiCierge\TabiCierge\obj\Release\Bot Application1.dll
 C:\Users\nacho\Documents\net\TabiCierge\TabiCierge\obj\Release\Bot Application1.pdb
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Bot Application1.dll.config
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Bot Application1.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Bot Application1.pdb
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Autofac.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Chronic.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Bot.Builder.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Bot.Connector.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Newtonsoft.Json.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Net.Http.Formatting.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Web.Http.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Web.Http.WebHost.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Autofac.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Bot.Builder.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Bot.Connector.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\Newtonsoft.Json.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Net.Http.Formatting.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Web.Http.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\System.Web.Http.WebHost.xml
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\obj\Release\TabiCierge.csprojResolveAssemblyReference.cache
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\obj\Release\Bot Application1.dll
+C:\Users\nacho\Documents\GitHub\codeBelle\net\TabiCierge\TabiCierge\obj\Release\Bot Application1.pdb
