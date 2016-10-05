@@ -2,16 +2,15 @@
 
 ### アクション実行結果のレスポンスコードを検証
 
-* メソッド
+* メソッド：
 
 ```ruby:
 assert_response(type, message = nil)
 ```
 
-* 説明
-アクション実行結果のレスポンスコードを検証
+* 説明：アクション実行結果のレスポンスコードを検証
 
-* 例
+* 例：
 
 ```ruby:
 assert_response :success
