@@ -17,4 +17,3 @@ assert_response :success
 ```
 
 * [参考サイト](http://railsdoc.com/test)
-
