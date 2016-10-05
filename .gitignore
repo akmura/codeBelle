@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+*.pubxml
+net/TabiCierge/TabiCierge/Properties/PublishProfiles/BotScaffold20160927115107 - Web Deploy.pubxml.user
