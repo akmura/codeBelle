@@ -1,6 +1,6 @@
 <h2>画像診断による旅先提案</h2>
 <p>下の画像から貴方が気に入った順に3つの画像を選択して下さい</p>
-<p>「診断するをクリックすると、おすすめの旅先3箇所が表示されます</p>
+<p>「診断する」をクリックすると、おすすめの旅先3箇所が表示されます</p>
 <%= form_tag("results", method: "get") do %>
 <label for="select_no1">1番目に好きな画像</label>
 <%= select :select, :no1, @image_select_option %>
