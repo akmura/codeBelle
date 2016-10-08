@@ -1,6 +1,8 @@
 <h2>画像診断による旅先提案</h2>
 <p>下の画像から貴方が気に入った順に3つの画像を選択して下さい</p>
 <p>「診断するをクリックすると、おすすめの旅先3箇所が表示されます</p>
+<p>Skypeから診断したい方は<a href="https://join.skype.com/bot/7ca764fc-55e7-48db-8033-256484f1c5f2">こちら</a></p>
+<p>Webサイト上で対話形式で診断したい方は<a href="bot">こちら</a>
 <%= form_tag("results", method: "get") do %>
 <label for="select_no1">1番目に好きな画像</label>
 <%= select :select, :no1, @image_select_option %>

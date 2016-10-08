@@ -7,6 +7,9 @@ class TopController < ApplicationController
       @image_select_option.push(["画像"+no.to_s,no])
     } 
   end
+  def bot
+
+  end
   def results
     # POSTから入力値を受け取る
     no1 = params[:select_no1].to_i

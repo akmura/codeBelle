@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   #get '/entry' => 'top#entry'  
   get 'results' => 'top#results'
   post 'results' => 'top#results'
-
+  get 'bot' =>'top#bot'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
